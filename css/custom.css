@@ -71,6 +71,7 @@ h6{
     border-bottom: 1px solid #eaeaea;
     box-shadow: 0 2px 5px rgba(0,0,0,.1);
     box-sizing: inherit;
+    height: 80px;
 }
 
 .nav a{
