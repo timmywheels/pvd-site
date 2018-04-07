@@ -1,3 +1,7 @@
+html{
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -20,6 +24,69 @@ h6{
     margin-bottom: 50px;
 }
 
+.navbar{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: inherit;
+}
+
+.logo{
+    width: 45px;
+    height: auto;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.col-sm a:hover {
+    text-decoration: none;
+}
+
+.city{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.city:hover{
+    border-bottom: 2px solid #e56f00;
+    padding-bottom: 8px;
+}
+
+.mayor{
+    width: fit-content;
+}
+
+.mayor:hover{
+    border-bottom: 2px solid #10475a;
+    padding-bottom: 8px;
+}
+
+.nav{
+    font-size: 16px;
+    line-height: 24px;
+    border-top: 2px solid #10475a;
+    background: #f7f7f7;
+    border-bottom: 1px solid #eaeaea;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    box-sizing: inherit;
+}
+
+.nav a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6a6a6a;
+}
+
+.nav a:hover{
+    border-bottom: 5px solid #e56f00;
+}
+
 .blue-sidebar{
     /*width: 24%;*/
     margin: 0;
@@ -38,6 +105,17 @@ h6{
     border-radius: 0;
 }
 
+.card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.card-body{
+    padding: 26px 5.5%;
+}
+
 .news h5{
     color: #3894ac;
     font-size: 19px;
@@ -54,15 +132,22 @@ h6{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0;
+    margin-bottom: 30px;
 }
 
 .news a{
     color: #e56f00;
     text-transform: uppercase;
-    font-family: Source Sans Pro,sans-serif;
+    font-family: 'Source Sans Pro' ,sans-serif;
     margin-left: 0;
     position: relative;
     font-weight: 700;
+}
+
+.meta{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
 }
 
 .arrow{
@@ -88,7 +173,7 @@ h6{
 
 .read-more{
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 120px;
     font-size: .875rem;
 }
 
@@ -179,6 +264,11 @@ a.orange-btn:hover {
     font-family: Montserrat,sans-serif;
     margin-bottom: 13px;
     display: block;
+}
+
+.top-requests a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 .requests-title {
