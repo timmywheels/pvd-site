@@ -47,6 +47,8 @@ h6{
     width: fit-content;
     margin: 0 auto;
     text-align: center;
+    box-sizing: border-box;
+    height: 25px;
 }
 
 .city:hover{
@@ -56,6 +58,8 @@ h6{
 
 .mayor{
     width: fit-content;
+    box-sizing: border-box;
+    height: 25px;
 }
 
 .mayor:hover{
