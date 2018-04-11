@@ -266,7 +266,7 @@ a.orange-btn:hover {
 
 .top-requests a{
     color: #cecece;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat',sans-serif;
     margin-bottom: 13px;
     display: block;
 }
@@ -288,4 +288,21 @@ a.orange-btn:hover {
     font-size: 1.125rem;
     line-height: 1.375rem;
     letter-spacing: .10625rem;
+}
+
+.press-title{
+    color: #10475a;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    margin-bottom: 16px;
+    margin-top: 17px;
+    line-height: 1.5;
+}
+
+.press-paragraph{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6a6a6a;
 }
